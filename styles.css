@@ -28,7 +28,7 @@ body {
     flex-direction: column;
     min-height: 380px;
     background-color: #f2f1ed;
-    border-radius: 4px;
+    border-radius: 24px;
     padding: 16px;
     width: 320px;
     flex-shrink: 0;
@@ -37,6 +37,7 @@ body {
 .card-top {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .card-title {
